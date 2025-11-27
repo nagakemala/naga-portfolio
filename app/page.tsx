@@ -21,7 +21,6 @@ export default function Portfolio() {
     { id: 6, type: 'photo', category: 'Event', title: 'Crowd Moment', src: '/images/event-2.jpg' },
   ]
 
-  import { useState } from "react"
 
 const categories = ['All', 'Product', 'Event']
 const [active, setActive] = useState<string>('All') // lightweight local state placeholder
