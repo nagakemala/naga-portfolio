@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 
 export default function Portfolio() {
   const name = 'Naga Kemala'
@@ -20,8 +21,10 @@ export default function Portfolio() {
     { id: 6, type: 'photo', category: 'Event', title: 'Crowd Moment', src: '/images/event-2.jpg' },
   ]
 
-  const categories = ['All', 'Product', 'Event']
-  const [active, setActive] = (function(){ let a='All'; return [a, (v)=>{a=v}]; })() // lightweight local state placeholder
+  import { useState } from "react"
+
+const categories = ['All', 'Product', 'Event']
+const [active, setActive] = useState<string>('All') // lightweight local state placeholder
 
   // NOTE: This single-file component is meant as a visual example.
   // If you implement in React, replace the lightweight state above with useState and real assets.
