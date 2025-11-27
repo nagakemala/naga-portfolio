@@ -218,6 +218,10 @@ const [active, setActive] = useState<string>('All') // lightweight local state p
           - For large video files use a CDN or YouTube/Vimeo embed for faster loading.
           - Accessibility: add alt text and captions for videos.
         */}
+export default function Page() {
+  return <div>...</div>
+}
+
       </div>
     </div>
   )
