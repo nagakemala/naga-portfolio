@@ -9,13 +9,13 @@ export default function Page() {
         Naga Kemala
       </motion.h1>
 
-      <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.2}}>
+      <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.2}}>
         Photographer & Videographer since 2021
       </motion.p>
 
       <section style={{ marginTop: '40px' }}>
         <h2>Portfolio</h2>
-        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px,1fr))', gap:'16px' }}>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))', gap:'16px' }}>
           <div style={{ background:'#eee', height:150 }}></div>
           <div style={{ background:'#ddd', height:150 }}></div>
           <div style={{ background:'#ccc', height:150 }}></div>
